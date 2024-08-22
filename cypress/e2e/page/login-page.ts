@@ -16,4 +16,5 @@ export class LoginPage {
         cy.get(this.password).clear().type(password);
         cy.get(this.submitButton).click();
     }
+    
 }
